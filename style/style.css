@@ -1,0 +1,33 @@
+[class*=col-] {
+  border: 1px solid black;
+  min-height: 100px;
+}
+
+.navigator {
+  background-color: tomato;
+}
+
+.jumbotron {
+  background-color: black;
+  height: 300px;
+}
+
+.tomato {
+  background-color: tomato;
+}
+
+.black {
+  background-color: black;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.dark_blue {
+  background-color: darkblue;
+}
