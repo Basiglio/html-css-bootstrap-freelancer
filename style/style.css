@@ -37,9 +37,15 @@
   margin-bottom: 20px;
 }
 
+h2 {
+  text-align: center;
+}
+
 /* Large devices (large desktops, 1200px and up) */
 @media screen and (min-width: 1170px) {
 
 
 
 }
+
+@media screen and (min-width: 970px) {
