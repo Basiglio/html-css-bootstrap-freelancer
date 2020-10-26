@@ -1,7 +1,7 @@
 
 /* DEBuG */
 [class*=col-] {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   min-height: 100px;
 }
 .jumbotron {
