@@ -1,40 +1,52 @@
+
+/* DEBuG */
 [class*=col-] {
   border: 1px solid black;
   min-height: 100px;
 }
-
-.navigator {
-  background-color: tomato;
-}
-
 .jumbotron {
   background-color: black;
   height: 300px;
 }
-
 .tomato {
   background-color: tomato;
 }
-
 .black {
   background-color: black;
 }
-
 .green {
   background-color: green;
 }
-
 .blue {
   background-color: blue;
 }
-
 .dark_blue {
   background-color: darkblue;
 }
-
 .box {
   height: 300px;
   margin-bottom: 20px;
+}
+/* /DEBuG */
+/* NAVIGATOR */
+.navigator {
+  background-color: #2C3F51;
+}
+h1 {
+ line-height: 60px;
+ float: left;
+ font-size: 25px;
+ color: white;
+}
+.menu {
+  float: right;
+  line-height: 100px;
+  font-size: 30px;
+  color: white;
+}
+i {
+  padding: 10px;
+  border: 1px solid white;
 }
 
 h2 {
