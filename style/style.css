@@ -5,7 +5,7 @@
   min-height: 100px;
 }
 .jumbotron {
-  background-color: black;
+  background-color: #01b1b1;
   height: 300px;
 }
 .tomato {
@@ -15,13 +15,13 @@
   background-color: black;
 }
 .green {
-  background-color: green;
+  background-color: #01b1b1;
 }
 .blue {
-  background-color: blue;
+  background-color: #506271;
 }
 .dark_blue {
-  background-color: darkblue;
+  background-color: #2d4353;
 }
 .box {
   height: 300px;
@@ -53,11 +53,18 @@ h2 {
   text-align: center;
 }
 
-/* Large devices (large desktops, 1200px and up) */
-@media screen and (min-width: 1170px) {
+@media screen and (min-width: 1200px) {
+
+  .menu {
+    display: none;
+  }
 
 
 
 }
 
-@media screen and (min-width: 970px) {
+@media screen and (min-width: 992px) {
+
+  .menu {
+    display: none;
+  }
