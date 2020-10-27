@@ -1,18 +1,8 @@
 
 /* DEBuG */
 [class*=col-] {
-  /* border: 1px solid black; */
-  min-height: 100px;
-}
-.jumbotron {
-  background-color: #01b1b1;
-  height: 300px;
-}
-.tomato {
-  background-color: tomato;
-}
-.black {
-  background-color: black;
+  /* border: 1px solid black;
+  min-height: 100px; */
 }
 .green {
   background-color: #01b1b1;
@@ -29,42 +19,51 @@
 }
 /* /DEBuG */
 /* NAVIGATOR */
-.navigator {
+.header_top {
   background-color: #2C3F51;
-}
-h1 {
- line-height: 60px;
- float: left;
- font-size: 25px;
- color: white;
-}
-.menu {
-  float: right;
+  height: 80px;
   line-height: 100px;
+}
+h2 {
+ font-size: 20px;
+ color: white;
+ cursor: pointer;
+ margin: 0;
+ padding: 0;
+ line-height: 80px;
+}
+h2:hover {
+  color: #19bd9b;
+}
+span {
+  line-height: 80px;
   font-size: 30px;
   color: white;
-}
-i {
-  padding: 10px;
   border: 1px solid white;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+span:hover {
+  color: #19bd9b;
+  border-color: #19bd9b;
+}
+/* JUMBOTRON */
+.jumbotron {
+  background-color: #19bd9b;
+}
+.jumbotron img {
+  width: 200px;
 }
 
-h2 {
-  text-align: center;
-}
+
 
 @media screen and (min-width: 1200px) {
 
-  .menu {
-    display: none;
-  }
+
 
 
 
 }
 
 @media screen and (min-width: 992px) {
-
-  .menu {
-    display: none;
-  }
