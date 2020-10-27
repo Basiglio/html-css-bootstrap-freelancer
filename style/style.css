@@ -4,9 +4,6 @@
   /* border: 1px solid black; */ */
   min-height: 80px;
 }
-.green {
-  background-color: #01b1b1;
-}
 .blue {
   background-color: #506271;
 }
@@ -78,4 +75,20 @@ h3 {
 }
 .box {
   margin-bottom: 30px;
+}
+/* SECTION TWO */
+#about {
+  background-color: #01b1b1;
+  color: white;
+  padding: 80px;
+}
+.bottone1 {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#buttons {
+  background-color: #01b1b1;
+  border: 1px solid white;
+  color: white;
 }
